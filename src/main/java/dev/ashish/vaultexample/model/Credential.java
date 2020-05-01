@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import lombok.Data;
 
 @Data
-@ConfigurationProperties("example")
+@ConfigurationProperties("creds")
 public class Credential {
 
 	private String username;
